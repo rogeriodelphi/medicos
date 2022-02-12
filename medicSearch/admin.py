@@ -36,6 +36,12 @@ class ProfileAdmin(admin.ModelAdmin):
 
     birth.empty_value_display = '___/___/_____'
 
+
+        # css = {
+        #     "all": ("css/custom.css",)
+        # }
+        # js = ("js/custom.js",)
+
 admin.site.register(Profile, ProfileAdmin)
 admin.site.register(Neighborhood)
 admin.site.register(Address)
