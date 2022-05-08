@@ -43,10 +43,12 @@ class ProfileAdmin(admin.ModelAdmin):
         # js = ("js/custom.js",)
 
 admin.site.register(Profile, ProfileAdmin)
-admin.site.register(Neighborhood)
 admin.site.register(Address)
 admin.site.register(DayWeek)
 admin.site.register(Rating)
 admin.site.register(Speciality)
+admin.site.register(City)
+admin.site.register(State)
+admin.site.register(Neighborhood)
 
 
